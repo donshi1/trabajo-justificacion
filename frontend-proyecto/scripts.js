@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const respuestaP = document.getElementById('respuesta');
 
   // 3. Definir la dirección de nuestro "motor" (backend)
-  const urlBackend = 'http://localhost:3000';
+  const urlBackend = 'https://backend-trabajo-justificacion.onrender.com/';
 
   // 4. Agregar un "escuchador de clics" al botón
   boton.addEventListener('click', () => {
